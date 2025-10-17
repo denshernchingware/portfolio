@@ -8,13 +8,13 @@
 </head>
 <body class="m-0 p-0">
  <!-- Navbar -->
-<nav id="navbar" class="w-full bg-white shadow-md fixed top-0 left-0 z-50 transition-colors duration-500">
-  <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+<nav id="navbar" class="w-full bg-white shadow-md fixed top-0 left-0 z-50 transition-colors duration-500 text-xl">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center ">
     
     <!-- Logo -->
     <div class="flex items-center gap-2">
       <span class="text-blue-600 text-2xl font-bold">✦</span>
-      <span class="text-xl font-semibold text-gray-800">DenwareTech</span>
+      <span class="text-xl font-semibold text-gray-800">My Portfolio</span>
     </div>
 
     <!-- Desktop Menu -->
@@ -62,20 +62,26 @@
     <!-- Slides -->
     <div id="slides" class="flex w-[200%] h-full transition-transform duration-700 ease-in-out">
       <!-- Slide 1 -->
-      <div class="w-1/2 h-full bg-[#0f172a] flex items-center justify-center text-white">
+      <div class="w-1/2 h-full bg-[url('src/images/hero.jpg')] flex items-center justify-center text-white">
         <div class="flex flex-col md:flex-row items-center gap-10 p-10">
-          <img src="Images/profile.jpg" class="rounded-full w-40 h-40 border-4 border-white object-cover">
-          <div>
-            <h1 class="text-4xl font-bold">BUSINESS ADMINISTRATOR</h1>
-            <p class="mt-3 text-gray-300">Business Administration & Software Development</p>
-            <p class="mt-6 max-w-md">Passionate about leveraging business insights with cutting-edge software solutions to drive innovation and growth.</p>
-            <button class="mt-6 bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded text-white">Let's Connect</button>
+          <img src="Images/profile.jpg" class="rounded-full w-96 h-96 border-4 border-white object-cover">
+          <div class="ml-20">
+            <h1 class="text-6xl font-bold">Hello !, i `m Densher</h1>
+            <p class="mt-3 text-gray-300">Web Developer | Business Administrator</p>
+            <p class="mt-6 max-w-md text-justify">I’m passionate about combining business intelligence with innovative software solutions to create impactful digital experiences that drive efficiency, growth, and transformation. With a strong foundation in both technology and business strategy, I aim to bridge the gap between vision and execution, turning ideas into scalable, real-world solutions.</p>
+
+            <div class="space-x-2 ">
+              <button class="mt-6 bg-blue-600 hover:bg-blue-700 px-5 py-2 text-white rounded-xl">Let's Connect</button>
+
+            <button class="mt-6 bg-blue-600 hover:bg-blue-700 px-5 py-2  text-white rounded-xl">Let's Connect</button>
+            </div>
+            
           </div>
         </div>
       </div>
 
       <!-- Slide 2 -->
-      <div class="w-1/2 h-full bg-gradient-to-r from-blue-700 to-purple-800 flex items-center justify-center text-white">
+      <!-- <div class="w-1/2 h-full bg-gradient-to-r from-blue-700 to-purple-800 flex items-center justify-center text-white">
         <div class="flex flex-col md:flex-row items-center gap-10 p-10">
           <img src="Images/profile.jpg" class="rounded-full w-40 h-40 border-4 border-white object-cover">
           <div>
@@ -86,7 +92,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Navigation Arrows -->
     <button id="prev" class="absolute top-1/2 left-5 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black">&larr;</button>
@@ -102,7 +108,7 @@
   const mobileMenu = document.getElementById("mobile-menu");
 
   // Scroll effect
-  window.addEventListener("scroll", () => {
+  //window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {
       navbar.classList.add("bg-gray-900", "shadow-lg");
       navbar.classList.remove("bg-white");
