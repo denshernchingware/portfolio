@@ -203,8 +203,9 @@
 
     <!-- stats -->
 <div class="relative bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-white py-12">
-  <!-- Optional background image overlay -->
-  <div class="absolute inset-0 bg-[url('/images/code-bg.jpg')] bg-cover bg-center opacity-15"></div>
+  
+  <div class="hidden md:block absolute inset-0 bg-[url('')] bg-cover bg-center opacity-15"></div>
+  <div class="md:hidden absolute inset-0 bg-[url('https://www.fnssolution.com/wp-content/uploads/2023/06/Untitled-1-14.jpg')] bg-cover bg-center opacity-15"></div>
 
   <!-- Content -->
   <div class="relative max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
@@ -250,27 +251,16 @@
         >
           <div>
             <h2
-              class="text-4xl md:text-5xl font-bold text-[#001e3d] mb-8 leading-snug"
+              class="text-2xl md:text-5xl font-bold text-[#001e3d] mb-8 leading-snug"
             >
               About Me
             </h2>
-            <p class="text-lg text-slate-700 leading-relaxed mb-6 text-justify">
+            <p class="lg:text-lg text-slate-700 leading-relaxed mb-6 md:text-justify text-[1rem] mx-auto text-start">
               I’m a BBA graduate with a strong foundation in business administration, combined with hands-on expertise in web development. My unique blend of business insight and technical skills allows me to build user-focused, efficient, and scalable web solutions.
 
 With a clear vision of becoming a Software Engineer, I’m constantly expanding my knowledge in modern technologies, full-stack development, and problem-solving. I’m passionate about creating impactful digital experiences that bridge innovation and functionality.
             </p>
-            <p class="text-lg text-slate-700 leading-relaxed text-justify">
-              Our team combines expert craftsmanship, modern technology, and
-              innovative design to ensure every project meets the highest
-              standards of safety, durability, and efficiency. From small-scale
-              developments to large construction projects, we approach each task
-              with professionalism, precision, and a passion for excellence.
-            </p>
-            <p class="mt-6 text-lg text-slate-700 leading-relaxed font-medium text-justify">
-              At Chingware Builders, we believe construction is more than just
-              buildings — it’s about creating spaces that inspire, serve, and
-              stand the test of time.
-            </p>
+           
           </div>
 
           <div
@@ -284,7 +274,7 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
   <!-- education -->
    <section id="education" class="bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-white py-12">
   <div class="max-w-5xl mx-auto px-4">
-    <h2 class="text-5xl font-bold mb-8 text-center">🎓 Education</h2>
+    <h2 class="md:text-5xl font-bold mb-8 text-center text-2xl">🎓 Education</h2>
     
     <div class="space-y-6">
       <!-- Education Card 1 -->
@@ -292,15 +282,15 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <div>
             <h3 class="text-xl font-semibold">Bachelor of Business Administration (BBA)</h3>
-            <p class="text-gray-400">Business Administration | Integrated Web Development</p>
+            <p class="text-gray-400">Business Administration </p>
           </div>
           <div class="mt-3 md:mt-0 text-gray-400 text-sm">
-            2020 – 2024
+            2023 – 2026
           </div>
         </div>
         <p class="mt-4 text-gray-300">
           Built a strong foundation in business strategy, management, and digital transformation, 
-          complemented by modern web development skills including HTML, CSS, Tailwind, and JavaScript.
+          complemented by modern web development skills.
         </p>
       </div>
 
@@ -308,8 +298,8 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
       <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <div>
-            <h3 class="text-xl font-semibold">Software Engineering Vision</h3>
-            <p class="text-gray-400">Self-learning & Online Courses</p>
+            <h3 class="text-xl font-semibold">Web Developer</h3>
+            <p class="text-gray-400">Frontend Developer</p>
           </div>
           <div class="mt-3 md:mt-0 text-gray-400 text-sm">
             2024 – Present
@@ -326,7 +316,7 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
 <!-- skills -->
  <section id="skills" class="bg-gray-900 text-white py-12 overflow-hidden">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <h2 class="text-5xl font-bold mb-8">Skills</h2>
+    <h2 class="md:text-5xl font-bold mb-8 text-2xl">Skills</h2>
 
     <div class="relative w-full overflow-hidden">
       <!-- Sliding container -->
@@ -363,7 +353,7 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
     <!-- portfolio -->
      <section id="portfolio" class="bg-[#E6F6FE] text-white py-16">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <h2 class="text-3xl md:text-5xl font-bold mb-10 text-[#001e3d]">🚀 My Portfolio</h2>
+    <h2 class="text-2xl md:text-5xl font-bold mb-10 text-[#001e3d]">🚀 My Portfolio</h2>
     <p class="text-gray-400 max-w-2xl mx-auto mb-12 ">
       A selection of my recent web development work — blending creativity with functionality.
     </p>
@@ -411,18 +401,8 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
         </div>
       </div>
 
-       <!-- Project 3 -->
-      <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40" alt="Project 3" class="w-full h-48 object-cover">
-        <div class="p-5 text-left">
-          <h3 class="text-xl font-semibold mb-2">Business Dashboard</h3>
-          <p class="text-gray-400 text-sm mb-4">A dynamic dashboard using Tailwind CSS and chart libraries for data visualization.</p>
-          <a href="#" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium">🔗 View Project</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
+       
+      
 </section>
 
      <!-- end of portfolio -->
