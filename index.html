@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 
-  <body class="m-0 p-0 overflow-x-hidden">
+  <body class="m-0 p-0 overflow-x-hidden font-serif">
     <!-- Navbar -->
     <nav
       id="navbar"
@@ -42,25 +42,31 @@
             <a
               href="#Education"
               class="nav-link text-gray-700 hover:text-blue-600 transition"
-              >Portfolio</a
+              >Education</a
             >
           </li>
           <li>
             <a
               href="#Portfolio"
               class="nav-link text-gray-700 hover:text-blue-600 transition"
-              >Education</a
+              >Skills</a
             >
           </li>
-          
+          <li>
+            <a
+              href="#Portfolio"
+              class="nav-link text-gray-700 hover:text-blue-600 transition"
+              >Portfolio</a
+            >
+          </li>
          
         </ul>
 
-        <!-- CV Button -->
+        <!-- Contact -->
         <button
-          class="hidden md:inline-block bg-gradient-to-r from-[#ad5389] to-[#3c1053] hover:bg-blue-100 hover:text-blue-800 px-8 py-3 text-white rounded-full font-bold"
+          class="hidden md:inline-block bg-blue-950  hover:text-blue-950 px-8 py-3 text-white rounded-full font-bold hover:bg-white"
         >
-          Download CV
+          Contact
         </button>
 
         <!-- Hamburger Menu -->
@@ -91,37 +97,31 @@
             <a
               href="#about"
               class="block nav-link text-gray-700 hover:text-blue-600"
-              >About Me</a
+              >About</a
             >
           </li>
           <li>
             <a
               href="#portfolio"
               class="block nav-link text-gray-700 hover:text-blue-600"
-              >Portfolio</a
+              >Education</a
             >
           </li>
           <li>
             <a
               href="#education"
               class="block nav-link text-gray-700 hover:text-blue-600"
-              >Education</a
+              >Skills</a
             >
           </li>
           <li>
             <a
               href="#services"
               class="block nav-link text-gray-700 hover:text-blue-600"
-              >Services</a
+              >Portfolio</a
             >
           </li>
-          <li>
-            <a
-              href="#testimonials"
-              class="block nav-link text-gray-700 hover:text-blue-600"
-              >Testimonials</a
-            >
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -131,7 +131,7 @@
   id="home"
   class="relative w-full h-[90vh] flex flex-col items-center justify-center bg-cover bg-center text-white font-serif bg-[url('https://static.vecteezy.com/system/resources/thumbnails/012/830/353/small_2x/html-code-on-a-computer-monitor-software-and-web-developer-programming-code-photo.jpg')]"
 >
-  <!-- Overlay -->
+ 
   <div class="absolute inset-0 bg-black/80 z-0"></div>
 
   <!-- Text Content -->
@@ -144,25 +144,25 @@
       Web Developer
     </p>
 
-    <p class="mt-6 lg:text-[#E0FFFF] lg:text-4xl md:text-lg max-w-2xl mx-auto text-white text-[1rem]">
+    <p class="mt-6 lg:text-[#E0FFFF] lg:text-4xl md:text-xl max-w-2xl mx-auto text-white text-[1rem]">
       I’m passionate about combining business intelligence with innovative
       software solutions to create impactful digital experiences that drive
       efficiency and growth.
     </p>
 
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+     <button
+          class=" md:inline-block bg-blue-950  hover:text-blue-950 px-8 py-3 border-2 text-white rounded-full font-bold hover:bg-white"
+        >
+          Download CV
+        </button>
       <button
-        class="bg-gradient-to-r from-[#ad5389] to-[#3c1053] hover:bg-white hover:text-blue-600 px-10 py-4 font-bold rounded-full transition"
-      >
-        Download CV
-      </button>
-      <button
-        class="md:hidden bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-10 py-4 rounded-full transition"
+        class="md:hidden bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-full transition"
       >
         Contact Me
       </button>
       <button
-        class="hidden md:inline-block bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-10 py-3 rounded-full transition font-bold"
+        class="hidden md:inline-block bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-full transition font-bold"
       >
         View Here
       </button>
@@ -173,8 +173,7 @@
 
  <!-- Stats Section -->
 <div class="hidden md:block relative text-white py-10 w-full bg-[#0f172a] ">
-  <!-- Background Image -->
-  <div class="absolute inset-0 bg-[url('https://www.fnssolution.com/wp-content/uploads/2023/06/Untitled-1-14.jpg')] bg-cover bg-center opacity-20"></div>
+ 
 
   <!-- Content -->
   <div class="relative max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center ">
@@ -209,7 +208,7 @@
 
 <div class="md:hidden relative text-white py-10 w-full bg-[#0f172a] mt-5">
   <!-- Background Image -->
-  <div class="absolute inset-0 bg-[url('')] bg-cover bg-center opacity-20"></div>
+  <div class="absolute inset-0 bg-cover bg-center opacity-20"></div>
 
   <!-- Content -->
   <div class="relative max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center ">
@@ -255,13 +254,13 @@
             <p class="lg:text-lg text-slate-700 leading-relaxed mb-6  text-sm mx-auto text-start">
               I’m a BBA graduate with a strong foundation in business administration, combined with hands-on expertise in web development. My unique blend of business insight and technical skills allows me to build user-focused, efficient, and scalable web solutions.
 
-With a clear vision of becoming a Software Engineer, I’m constantly expanding my knowledge in modern technologies, full-stack development, and problem-solving. I’m passionate about creating impactful digital experiences that bridge innovation and functionality.
+              With a clear vision of becoming a Software Engineer, I’m constantly expanding my knowledge in modern technologies, full-stack development, and problem-solving. I’m passionate about creating impactful digital experiences that bridge innovation and functionality.
             </p>
            
           </div>
 
           <div
-            class="relative shadow-2xl rounded-full overflow-hidden bg-gradient-to-r from-[#0c0a24] via-[#302b63] to-[#0c0a24] flex justify-center items-center w-[30rem] h-[30rem] mx-auto"
+            class="relative shadow-2xl rounded-full overflow-hidden bg-gray-950 flex justify-center items-center lg:w-[25rem] lg:h-[25rem] mx-auto w-60"
           >
             <img src="https://i.postimg.cc/wBg0M2gT/Generated-Image-October-21-2025-1-40AM-1-removebg-preview-1.png" alt="" class="w-full h-full">
         </div>
@@ -271,11 +270,11 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
   <!-- education -->
    <section id="education" class="bg-gradient-to-r from-[#0c0a24] via-[#302b63] to-[#0c0a24] text-white py-12 font-serif">
   <div class="max-w-5xl mx-auto px-4">
-    <h2 class="md:text-5xl font-bold mb-8 text-center text-2xl">🎓 Education</h2>
+    <h2 class="md:text-5xl font-bold mb-8 text-center text-2xl">Education</h2>
     
     <div class="space-y-6">
       <!-- Education Card 1 -->
-      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+      <div class="bg-gray-950 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <div>
             <h3 class="text-xl font-semibold">Bachelor of Business Administration (BBA)</h3>
@@ -292,7 +291,7 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
       </div>
 
       <!-- Education Card 2 -->
-      <div class="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+      <div class="bg-gray-950 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <div>
             <h3 class="text-xl font-semibold">Web Developer</h3>
@@ -347,81 +346,82 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
 </section>
 
    <!-- end of education -->
-    <!-- portfolio -->
-     <!-- Section -->
+    <!-- portfolio Section -->  
   <section class="py-16 px-6 md:px-20 flex flex-col items-center justify-center mx-auto ">
-    <h2 class="text-5xl font-bold text-center mb-12">
-      Featured <span class="text-purple-500">Projects</span>
+    <h2 class="text-2xl md:text-5xl font-bold text-center mb-12 text-[#001e3d]">
+      Featured Projects
     </h2>
 
     <!-- Grid -->
-    <div class="grid gap-2 md:grid-cols-4 w-4/5">
+    <div class="grid gap-2 md:grid-cols-2  lg:grid-cols-4 w-4/5">
 
       <!-- Project Card 1 -->
-      <div class="bg-[#1a1a2e] rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
+      <div class="bg-gray-950 rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80 ">
+        
         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=60" 
              alt="E-Commerce Platform" class="w-full h-48 object-cover opacity-90" />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
+          <h3 class="text-xl font-semibold mb-2 text-white">E-Commerce Platform</h3>
           <p class="text-gray-400 mb-4 text-sm">
             A full-stack e-commerce solution with real-time inventory management and secure payment integration.
           </p>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Node.js</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Stripe</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Node.js</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Stripe</span>
           </div>
         </div>
       </div>
 
-      <!-- Project Card 2 -->
-      <div class="bg-[#1a1a2e] rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
+      <!-- Project Card 2-->
+      <div class="bg-gray-950 rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
         <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=60" 
              alt="Task Management App" class="w-full h-48 object-cover opacity-90" />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
-          <p class="text-gray-400 mb-4 text-sm">
+          <h3 class="text-xl font-semibold mb-2 text-white">Task Management App</h3>
+          <p class="text-gray-400 mb-4 text-sm ">
             Collaborative task management tool with real-time updates, team collaboration, and analytics.
           </p>
           <div class="flex flex-wrap gap-2">
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Firebase</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Firebase</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
           </div>
         </div>
       </div>
 
-      <div class="bg-[#1a1a2e] rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
+        <!-- project card 3 -->
+      <div class="bg-gray-950 rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=60" 
              alt="E-Commerce Platform" class="w-full h-48 object-cover opacity-90" />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
+          <h3 class="text-xl font-semibold mb-2 text-white">E-Commerce Platform</h3>
           <p class="text-gray-400 mb-4 text-sm">
             A full-stack e-commerce solution with real-time inventory management and secure payment integration.
           </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Node.js</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Stripe</span>
+          <div class="flex flex-wrap gap-2 ">
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Node.js</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Stripe</span>
           </div>
         </div>
       </div>
 
-      <!-- Project Card 3 -->
-      <div class="bg-[#1a1a2e] rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
+      <!-- Project Card 4 -->
+      <div class="bg-gray-950 rounded-2xl shadow-lg overflow-hidden hover:shadow-purple-500/30 transition-all max-w-80">
         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=60" 
              alt="Portfolio Website" class="w-full h-48 object-cover opacity-90" />
         <div class="p-6">
-          <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+          <h3 class="text-xl font-semibold mb-2 text-white">Portfolio Website</h3>
           <p class="text-gray-400 mb-4 text-sm">
             Modern portfolio website with smooth animations, dark theme, and responsive design.
           </p>
-          <div class="flex flex-wrap gap-2">
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">TypeScript</span>
-            <span class="bg-purple-900 text-purple-200 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+          <div class="flex flex-wrap gap-2 ">
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">React</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">TypeScript</span>
+            <span class="bg-blue-900 text-purple-200 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
           </div>
         </div>
       </div>
@@ -436,228 +436,148 @@ With a clear vision of becoming a Software Engineer, I’m constantly expanding 
      <!-- end of portfolio -->
 
       <!-- contact -->
-      <section class="bg-gray-50 py-20 bg-gradient-to-r from-[#0c0a24] via-[#302b63] to-[#0c0a24] text-white font-serif">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12">
-          <!-- Heading -->
-          <div class="text-center mb-12">
-            <h2 class="text-5xl font-bold ">
-              Get in Touch 
-            </h2>
-            
+      <section class="bg-gradient-to-r from-[#0c0a24] via-[#302b63] to-[#0c0a24] text-white font-serif py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+    <!-- Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">Get in Touch</h2>
+      <p class="mt-4 text-gray-300 text-base sm:text-lg">
+        We're always eager to discuss new projects and opportunities.
+      </p>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Contact Form -->
+      <div class="bg-gray-950 shadow-md rounded-lg p-6 sm:p-8">
+        <h3 class="text-2xl font-semibold mb-4">Send Us a Message</h3>
+
+        <form class="space-y-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="w-full border border-gray-700 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-800"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="w-full border border-gray-700 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-800"
+            />
           </div>
 
-          <!-- Grid -->
-          <div class="grid lg:grid-cols-2 gap-12">
-            <!-- Contact Form -->
-            <div class="bg-gray-900 shadow-md rounded-lg p-8 text-white">
-              <h3 class="text-2xl font-semibold  mb-4">
-                Send Us a Message
-              </h3>
-              <p class=" mb-6">
-                We're always eager to discuss new projects and opportunities.
-              </p>
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full border border-gray-700 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-800"
+          />
 
-              <form class="space-y-5">
-                <div class="grid grid-cols-2 gap-4">
-                  <input
-                    type="text"
-                    placeholder="First Name"
-                    class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[#f6ac45] bg-gray-800"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Last Name"
-                    class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[#f6ac45] bg-gray-800"
-                  />
-                </div>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[#f6ac45] bg-gray-800"
-                />
-                <input
-                  type="text"
-                  placeholder="Subject"
-                  class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[#f6ac45] bg-gray-800"
-                />
-                <textarea
-                  rows="4"
-                  placeholder="Tell us about your project..."
-                  class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[#f6ac45] bg-gray-800"
-                ></textarea>
+          <input
+            type="text"
+            placeholder="Subject"
+            class="w-full border border-gray-700 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-800"
+          />
 
-                <button
-                  type="submit"
-                  class="w-full bg-gradient-to-r from-[#ad5389] to-[#3c1053] hover:bg-[#e49b35] text-white font-semibold py-3 rounded-md transition"
-                >
-                  Send Message
-                </button>
-              </form>
+          <textarea
+            rows="4"
+            placeholder="Tell us about your project..."
+            class="w-full border border-gray-700 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-800"
+          ></textarea>
+
+          <button
+            type="submit"
+            class="w-full bg-blue-950 hover:bg-white hover:text-blue-900 text-white font-semibold py-3 rounded-full transition"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Details -->
+      <div class="bg-gray-950 text-white p-8 sm:p-10 md:p-12 rounded-lg">
+        <div class="max-w-md mx-auto text-center md:text-left">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Let's work together!</h2>
+          <p class="text-gray-400 mb-8">
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          </p>
+
+          <!-- Contact Info -->
+          <div class="space-y-6 mb-8">
+            <!-- Email -->
+            <div class="flex flex-col  sm:gap-4  ">
+              <div class="bg-blue-950 p-3 rounded-full mx-auto sm:mx-0 mb-3 sm:mb-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M2 4h20v16H2V4zm2 2v12h16V6H4zm2 2h12v2H6V8zm0 4h12v2H6v-2z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm">Email</p>
+                <p class="font-semibold break-words">densherChingware13@gmail.com</p>
+              </div>
             </div>
 
-            <!-- Contact Details -->
-            <div class="bg-gray-800 text-white py-16 px-6 md:px-16">
-  <div class="max-w-3xl mx-auto text-center md:text-left">
-    <!-- Header -->
-    <h2 class="text-3xl font-bold mb-4">Let's work together!</h2>
-    <p class="text-gray-400 mb-8">
-      I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-    </p>
+            <!-- Phone -->
+            <div class="flex flex-col sm:flex-row sm:items-center sm:gap-4 text-center sm:text-left">
+              <div class="bg-blue-950 p-3 rounded-full mx-auto sm:mx-0 mb-3 sm:mb-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C10.74 21 3 13.26 3 4.5a1 1 0 011-1H7.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm">Phone</p>
+                <p class="font-semibold">+91 95817 35231</p>
+              </div>
+            </div>
 
-    <!-- Contact Info -->
-    <div class="space-y-4 mb-8">
-      <!-- Email -->
-      <div class="flex items-center gap-4">
-        <div class="bg-gradient-to-r from-[#ad5389] to-[#3c1053] p-3 rounded-full flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M2 4h20v16H2V4zm2 2v12h16V6H4zm2 2h12v2H6V8zm0 4h12v2H6v-2z"/>
-          </svg>
-        </div>
-        <div>
-          <p class="text-gray-400 text-sm">Email</p>
-          <p class="font-semibold">your.email@example.com</p>
-        </div>
-      </div>
-
-      <!-- Phone -->
-      <div class="flex items-center gap-4">
-        <div class="bg-gradient-to-r from-[#ad5389] to-[#3c1053] p-3 rounded-full flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C10.74 21 3 13.26 3 4.5a1 1 0 011-1H7.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/>
-          </svg>
-        </div>
-        <div>
-          <p class="text-gray-400 text-sm">Phone</p>
-          <p class="font-semibold">+1 (555) 123-4567</p>
-        </div>
-      </div>
-
-      <!-- Location -->
-      <div class="flex items-center gap-4">
-        <div class="bg-gradient-to-r from-[#ad5389] to-[#3c1053] p-3 rounded-full flex-shrink-0">
-          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
-          </svg>
-        </div>
-        <div>
-          <p class="text-gray-400 text-sm">Location</p>
-          <p class="font-semibold">Your City, Country</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="flex justify-center md:justify-start gap-4 mt-6">
-      <!-- GitHub -->
-      <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
-        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.55v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.3-1.2-1.65-1.2-1.65-1-.65.1-.65.1-.65 1.1.1 1.65 1.15 1.65 1.15 1 .1 1.65-.75 1.65-.75.9-1.55 2.35-1.1 2.9-.85.1-.7.35-1.1.65-1.35-2.55-.3-5.2-1.25-5.2-5.5 0-1.2.45-2.2 1.15-2.95-.1-.3-.5-1.5.1-3.15 0 0 .95-.3 3.15 1.15a10.8 10.8 0 015.75 0C18.1 2.15 19 2.45 19 2.45c.6 1.65.2 2.85.1 3.15.7.75 1.15 1.75 1.15 2.95 0 4.25-2.65 5.2-5.2 5.5.35.3.65.9.65 1.85v2.75c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"/>
-        </svg>
-      </a>
-
-      <!-- LinkedIn -->
-      <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
-        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M4.98 3.5C3.34 3.5 2 4.84 2 6.48s1.34 2.98 2.98 2.98S7.96 8.12 7.96 6.48 6.62 3.5 4.98 3.5zM2 21h6V9H2v12zm7.5 0h5.5v-6c0-3.5 4-3.75 4 0v6h5.5v-7c0-6.5-7-6.25-9 0v7z"/>
-        </svg>
-      </a>
-
-      <!-- Twitter -->
-      <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
-        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-        </svg>
-      </a>
-    </div>
-  </div>
-</div>
+            <!-- Location -->
+            <div class="flex flex-col sm:flex-row sm:items-center sm:gap-4 text-center sm:text-left">
+              <div class="bg-blue-950 p-3 rounded-full mx-auto sm:mx-0 mb-3 sm:mb-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm">Location</p>
+                <p class="font-semibold">India</p>
               </div>
             </div>
           </div>
+
+          <!-- Social Icons -->
+          <div class="flex justify-center md:justify-start gap-4 mt-6">
+            <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.55v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.3-1.2-1.65-1.2-1.65-1-.65.1-.65.1-.65 1.1.1 1.65 1.15 1.65 1.15 1 .1 1.65-.75 1.65-.75.9-1.55 2.35-1.1 2.9-.85.1-.7.35-1.1.65-1.35-2.55-.3-5.2-1.25-5.2-5.5 0-1.2.45-2.2 1.15-2.95-.1-.3-.5-1.5.1-3.15 0 0 .95-.3 3.15 1.15a10.8 10.8 0 015.75 0C18.1 2.15 19 2.45 19 2.45c.6 1.65.2 2.85.1 3.15.7.75 1.15 1.75 1.15 2.95 0 4.25-2.65 5.2-5.2 5.5.35.3.65.9.65 1.85v2.75c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"/>
+              </svg>
+            </a>
+
+            <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M4.98 3.5C3.34 3.5 2 4.84 2 6.48s1.34 2.98 2.98 2.98S7.96 8.12 7.96 6.48 6.62 3.5 4.98 3.5zM2 21h6V9H2v12zm7.5 0h5.5v-6c0-3.5 4-3.75 4 0v6h5.5v-7c0-6.5-7-6.25-9 0v7z"/>
+              </svg>
+            </a>
+
+            <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+              </svg>
+            </a>
+          </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       
       <!-- Footer Section -->
-      <footer
-        class="bg-gradient-to-r from-[#0c0a24] via-[#070338] to-[#0c0a24] text-gray-200 pt-12 pb-6 "
-      >
-        <div
-          class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6"
+   
+        <footer
+          class="border-t border-white/20  pt-6 pb-6 text-center text-sm text-gray-200 bg-gray-950"
         >
-          <!-- Brand -->
-          <div>
-            <h3 class="text-lg font-semibold text-white">Chingware Builders</h3>
-            <p class="mt-3 text-sm text-gray-200">
-              Leading the way in infrastructure development with integrity and
-              innovation.
-            </p>
-            <div class="flex gap-4 mt-4">
-              <a href="#" class="hover:text-yellow-300"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="hover:text-yellow-300"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a href="#" class="hover:text-yellow-300"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-
-          <!-- Links -->
-          <div>
-            <h4 class="font-semibold text-white mb-3">Company</h4>
-            <ul class="space-y-2 text-sm">
-              <li><a href="#" class="hover:text-yellow-300">Home</a></li>
-              <li><a href="#" class="hover:text-yellow-300">About Us</a></li>
-              <li><a href="#" class="hover:text-yellow-300">Services</a></li>
-              <li><a href="#" class="hover:text-yellow-300">Portfolio</a></li>
-              <li><a href="#" class="hover:text-yellow-300">Contact</a></li>
-            </ul>
-          </div>
-
-          <!-- Services -->
-          <div>
-            <h4 class="font-semibold text-white mb-3">Services</h4>
-            <ul class="space-y-2 text-sm">
-              <li>
-                <a href="#" class="hover:text-yellow-300">Site Development</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-yellow-300">Road Construction</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-yellow-300">Bridge Building</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-yellow-300"
-                  >Infrastructure Solutions</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Legal -->
-          <div>
-            <h4 class="font-semibold text-white mb-3">Legal</h4>
-            <ul class="space-y-2 text-sm">
-              <li>
-                <a href="#" class="hover:text-yellow-300">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-yellow-300">Terms of Service</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Bottom -->
-        <div
-          class="border-t border-white/20 mt-10 pt-6 text-center text-sm text-gray-200"
-        >
-          © 2024 Chingware Builders. All rights reserved.
-        </div>
+          © 2025 Densher Ngoni Chingware. All rights reserved.
+       
       </footer>
 
     <!-- JS -->
